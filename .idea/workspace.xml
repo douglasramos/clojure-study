@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0c58987-7821-4e8f-a346-3c0cfe4747f4" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="clojure-environment" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1SPBhyBBqrvden54Mb1Ns9wpXGR" />
+  <component name="PropertiesComponent">
+    <property name="GoToKeyword.includeLibraries" value="false" />
+    <property name="GoToNamespace.includeLibraries" value="false" />
+    <property name="cursive.last.file.extension./home/douglas/Documents/clojure-environment/src" value="clj" />
+    <property name="cursive.last.file.extension./home/douglas/Documents/clojure-study/src" value="clj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../so-simulator" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/clojure_study/for_the_brave/chapter_3" />
+      <recent name="$PROJECT_DIR$/src/clojure_environment/for_the_brave" />
+    </key>
+  </component>
+  <component name="ReplState" timestamp="1572748054756">{:repl-history {:ide [], :local [{:command &quot;(def all-movies-q [:find ?e\n                    :where [?e :movie/title]])&quot;, :offset 74, :ns &quot;clojure-study.datomic&quot;} {:command &quot;(def all-movies-q '[:find ?e\n                    :where [?e :movie/title]])&quot;, :offset 75, :ns &quot;clojure-study.datomic&quot;} {:command &quot;(d/q all-movies-q db)&quot;, :offset 21, :ns &quot;clojure-study.datomic&quot;} {:command &quot;(def all-titles-q '[:find ?movie-title\n                    :where [_ :movie/title ?movie-title]])&quot;, :offset 97, :ns &quot;clojure-study.datomic&quot;} {:command &quot;(d/q all-titles-q db)&quot;, :offset 21, :ns &quot;clojure-study.datomic&quot;} {:command &quot;(*ns*)&quot;, :offset 6, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(conj [1 2 3] 4)&quot;, :offset 16, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(conj [1 2 3] 4 10 15)&quot;, :offset 22, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(conj [1 2 3] [4 10 15])&quot;, :offset 24, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(apply conj [1 2 3] [4 10 15])&quot;, :offset 30, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(conj '(1 2 3 ) 4)&quot;, :offset 18, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(conj '(1 2 3 ) 4 2)&quot;, :offset 20, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(class (seq 1 2 3))&quot;, :offset 19, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(class '(seq 1 2 3))&quot;, :offset 20, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(class (list 1 2 3))&quot;, :offset 20, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(class (seq [1 2 3]))&quot;, :offset 21, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(class (seq #{1 2 3}))&quot;, :offset 22, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(seq [1 2 3])&quot;, :offset 13, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(seq '(1 2 3))&quot;, :offset 14, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(class (cons 4 '(1 2 3)))&quot;, :offset 25, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(class (cons 4 [1 2 3]))&quot;, :offset 24, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(conj '() 1 2 3)&quot;, :offset 16, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(class ())&quot;, :offset 10, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(class '())&quot;, :offset 11, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(class (1 2 3))&quot;, :offset 15, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(class '(1 2 3))&quot;, :offset 16, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(sequential? [1 2 3])&quot;, :offset 21, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(first [1 2 3])&quot;, :offset 15, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;'(1 2 3)&quot;, :offset 8, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(seq? (seq [1 2 3]))&quot;, :offset 20, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(seq? [1 2 3])&quot;, :offset 14, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(let [s (range 1e6)]\n  (time (count s)))&quot;, :offset 40, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(let [s (apply list (range 1e6))]\n  (time (count s)))&quot;, :offset 53, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;[vec 1 2 3]&quot;, :offset 11, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;[1 2 3]&quot;, :offset 7, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;[vector 1 2 3]&quot;, :offset 14, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;((juxt coll? sequential? seq?) '(1 2 3))&quot;, :offset 40, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;((juxt coll? sequential? seq?) [1 2 3])&quot;, :offset 39, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;{:bar 1 :foo 2 :lee 3}&quot;, :offset 22, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(map :bar 1 :foo 2 :lee 3)&quot;, :offset 26, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(zipmap [:year :month :day] (clojure.string/split \&quot;2013-02-18\&quot; #\&quot;-\&quot;))&quot;, :offset 69, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;((juxt coll? sequential? seq?) {:bar 1 :foo 2 :lee 3})&quot;, :offset 54, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(seq {:bar 1 :foo 2 :lee 3})&quot;, :offset 28, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(-&gt; (seq {:bar 1 :foo 2 :lee 3}) first first)&quot;, :offset 45, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(-&gt;&gt; (seq {:bar 1 :foo 2 :lee 3}) first first)&quot;, :offset 46, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;((comp first first) {:bar 1 :foo 2 :lee 3})&quot;, :offset 43, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(defn my-sum-curried [x]\n  (#(+ % x)))&quot;, :offset 38, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(partial #(+ 3) 5)&quot;, :offset 17} {:command &quot;(defn my-sum-curried [x]\n  #(+ % x))&quot;, :offset 36, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(my-sum-curried 2)&quot;, :offset 18, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;((my-sum-curried 2) 3)&quot;, :offset 22, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(partial my-sum-curried 3)&quot;, :offset 26, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;((partial my-sum-curried) 3)&quot;, :offset 28, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(defn my-sum-partial [x]\n  (partial #(+ x)))&quot;, :offset 44, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(my-sum-partial 3)&quot;, :offset 18, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;((my-sum-partial 3), 2)&quot;, :offset 23, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(defn my-sum-partial [x]\n  (partial + x))&quot;, :offset 41, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;((my-sum-curried 3) 2)&quot;, :offset 22, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;((my-sum-partial 3) 2)&quot;, :offset 22, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(into () [1 2 3 4])&quot;, :offset 19, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(reduce conj '() \&quot;legal\&quot;)&quot;, :offset 25, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(into '() \&quot;legal\&quot;)&quot;, :offset 18, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;#{1 2 2 3}&quot;, :offset 10, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(set (1 2 2 3))&quot;, :offset 15, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(set '(1 2 2 3))&quot;, :offset 16, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;((juxt coll? sequential? seq?) #{1 2 3})&quot;, :offset 40, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(associative? {:bar 1 :foo 2 :lee 3})&quot;, :offset 37, :ns &quot;clojure-study.basics.abstractions&quot;} {:command &quot;(str \&quot;it's cool\&quot; \&quot;and nice\&quot;)&quot;, :offset 28, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(vector 1 2 3)&quot;, :offset 14, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(list 1 2 3)&quot;, :offset 12, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(hash-map :a 1 :b 2 :c 3 )&quot;, :offset 26, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(hash-map :a 1 :b 2 :c 3 :c 5 )&quot;, :offset 31, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(map :a 1 :b 2 :c 3 :c 5)&quot;, :offset 25, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(class (hash-map :a 1 :b 2 :c 3 :c 5))&quot;, :offset 38, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(class {:a 1 :b 3})&quot;, :offset 19, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(hash-set 1 2 3)&quot;, :offset 16, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(defn add-100 []\n  (partial + 100))&quot;, :offset 35, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(def add-100\n  (partial + 100))&quot;, :offset 31, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(add-100 3)&quot;, :offset 11, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(def mapset\n  (comp set map))&quot;, :offset 29, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(mapset inc [1 1 2 2])&quot;, :offset 22, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;#\&quot;^Left-\&quot;&quot;, :offset 9, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(class #\&quot;^Left-\&quot;)&quot;, :offset 17, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(class #(str \&quot;cool\&quot; \&quot;legal\&quot;))&quot;, :offset 11} {:command &quot;(class (re-pattern (str \&quot;cool\&quot;)))&quot;, :offset 33, :ns &quot;clojure-study.for-the-brave.chapter-3.exercises&quot;} {:command &quot;(def generci-asym-hobbit-body-parts [{:name \&quot;head\&quot; :size 3}\n                             {:name \&quot;1th-eye\&quot; :size 1}\n                             {:name \&quot;1th-ear\&quot; :size 1}\n                             {:name \&quot;1th-ear\&quot; :size 1}\n                             {:name \&quot;mouth\&quot; :size 1}\n                             {:name \&quot;nose\&quot; :size 1}\n                             {:name \&quot;neck\&quot; :size 2}\n                             {:name \&quot;1th-shoulder\&quot; :size 3}\n                             {:name \&quot;1th-upper-arm\&quot; :size 3}\n                             {:name \&quot;chest\&quot; :size 10}\n                             {:name \&quot;back\&quot; :size 10}\n                             {:name \&quot;left-forearm\&quot; :size 3}\n                             {:name \&quot;abdomen\&quot; :size 6}\n                             {:name \&quot;1th-kidney\&quot; :size 1}\n                             {:name \&quot;1th-hand\&quot; :size 2}\n                             {:name \&quot;1th-knee\&quot; :size 2}\n                             {:name \&quot;1th-thigh\&quot; :size 4}\n                             {:name \&quot;1th-lower-leg\&quot; :size 3}\n                             {:name \&quot;1th-achilles\&quot; :size 1}\n                             {:name \&quot;1th-foot\&quot; :size 2}])&quot;, :offset 1130, :ns &quot;clojure-study.for-the-brave.chapter-3.body-parts&quot;} {:command &quot;(def generci-asym-hobbit-body-parts [{:name \&quot;head\&quot; :size 3}\n                                     {:name \&quot;1th-eye\&quot; :size 1}\n                             {:name \&quot;1th-ear\&quot; :size 1}\n                             {:name \&quot;1th-ear\&quot; :size 1}\n                             {:name \&quot;mouth\&quot; :size 1}\n                             {:name \&quot;nose\&quot; :size 1}\n                             {:name \&quot;neck\&quot; :size 2}\n                             {:name \&quot;1th-shoulder\&quot; :size 3}\n                             {:name \&quot;1th-upper-arm\&quot; :size 3}\n                             {:name \&quot;chest\&quot; :size 10}\n                             {:name \&quot;back\&quot; :size 10}\n                             {:name \&quot;left-forearm\&quot; :size 3}\n                             {:name \&quot;abdomen\&quot; :size 6}\n                             {:name \&quot;1th-kidney\&quot; :size 1}\n                             {:name \&quot;1th-hand\&quot; :size 2}\n                             {:name \&quot;1th-knee\&quot; :size 2}\n                             {:name \&quot;1th-thigh\&quot; :size 4}\n                             {:name \&quot;1th-lower-leg\&quot; :size 3}\n                             {:name \&quot;1th-achilles\&quot; :size 1}\n                             {:name \&quot;1th-foot\&quot; :size 2}])&quot;, :offset 1138, :ns &quot;clojure-study.for-the-brave.chapter-3.body-parts&quot;} {:command &quot;(defn generic-matching-art\n  [part quantity]\n  (reduce (let [pattern #\&quot;1th\&quot;\n                s (:name part)]\n            (when (re-matches pattern s)\n              {:name (clojure.string/replace (:name part) pattern (str quantity \&quot;th\&quot;))\n               :size (:size part)})) (range 2 quantity)))&quot;, :offset 293, :ns &quot;clojure-study.for-the-brave.chapter-3.body-parts&quot;} {:command &quot;(generic-matching-art {:name \&quot;1th-eye\&quot; :size 1} 2)&quot;, :offset 50, :ns &quot;clojure-study.for-the-brave.chapter-3.body-parts&quot;} {:command &quot;(defn generic-matching-part\n  [part quantity]\n  (reduce (let [pattern #\&quot;1th\&quot;\n                s (:name part)]\n            (when (re-matches pattern s)\n              {:name (clojure.string/replace (:name part) pattern (str quantity \&quot;th\&quot;))\n               :size (:size part)})) (range 2 quantity)))&quot;, :offset 294, :ns &quot;clojure-study.for-the-brave.chapter-3.body-parts&quot;} {:command &quot;(defn generic-matching-part\n  [part quantity]\n  (reduce #(let [pattern #\&quot;^1th\&quot;\n                s (:name part)]\n            (when (re-matches pattern s)\n              {:name (clojure.string/replace (:name part) pattern (str % \&quot;th\&quot;))\n               :size (:size part)})) (range 2 quantity)))&quot;, :offset 289, :ns &quot;clojure-study.for-the-brave.chapter-3.body-parts&quot;} {:command &quot;(generic-matching-part {:name \&quot;1th-eye\&quot; :size 1} 2)&quot;, :offset 51, :ns &quot;clojure-study.for-the-brave.chapter-3.body-parts&quot;} {:command &quot;(defn generic-matching-part\n  [part quantity]\n  (conj () part quantity))&quot;, :offset 72, :ns &quot;clojure-study.for-the-brave.chapter-3.body-parts&quot;} {:command &quot;(defn generic-matching-part\n  [part quantity]\n  (reduce #(let [pattern #\&quot;^1th\&quot;\n                s (:name part)]\n            (when (re-matches pattern s)\n              {:name (clojure.string/replace (:name part) pattern (str % \&quot;th\&quot;))\n               :size (:size part)})) () (range 2 quantity)))&quot;, :offset 292, :ns &quot;clojure-study.for-the-brave.chapter-3.body-parts&quot;} {:command &quot;(generic-matching-part 1 2)&quot;, :offset 27, :ns &quot;clojure-study.for-the-brave.chapter-3.body-parts&quot;} {:command &quot;(generic-matching-part {:name \&quot;1th-thigh\&quot; :size 4} 4)&quot;, :offset 53, :ns &quot;clojure-study.for-the-brave.chapter-3.body-parts&quot;} {:command &quot;(defn generic-matching-part\n  [part quantity]\n  (reduce #(let [pattern #\&quot;^1th\&quot;\n                s (:name part)]\n            (when (re-matches pattern s)\n              {:name (clojure.string/replace (:name part) pattern (str % \&quot;th\&quot;))\n               :size (:size part)})) () (range 1 quantity)))&quot;, :offset 292, :ns &quot;clojure-study.for-the-brave.chapter-3.body-parts&quot;} {:command &quot;(generic-matching-part {:name \&quot;1th-thigh\&quot; :size 4} 2)&quot;, :offset 53, :ns &quot;clojure-study.for-the-brave.chapter-3.body-parts&quot;} {:command &quot;(defn func [part quantity]\n  (let [pattern #\&quot;^1th-\&quot;\n        s (:name part)]\n    {:name (clojure.string/replace s pattern (str \&quot;cool\&quot;))\n     :size 2}))&quot;, :offset 150, :ns &quot;clojure-study.for-the-brave.chapter-3.body-parts&quot;} {:command &quot;(defn generic-matching-part\n  [part quantity]\n  (reduce #(let [pattern #\&quot;^1th-\&quot;\n                s (:name part)]\n            (when (re-matches pattern s)\n              {:name (clojure.string/replace (:name part) pattern (str % \&quot;th\&quot;))\n               :size (:size part)})) () (range 1 quantity)))&quot;, :offset 293, :ns &quot;clojure-study.for-the-brave.chapter-3.body-parts&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Clojure REPL.REPL for clojure-environment">
+    <configuration name="REPL for clojure-environment" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <module name="clojure-study" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="armstrong_numbers" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clojure-study" />
+      <setting name="path" value="$PROJECT_DIR$/src/clojure_study/exercism/armstrong_numbers.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/clojure_study/exercism" />
+      <method v="2" />
+    </configuration>
+    <configuration name="body_parts" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clojure-study" />
+      <setting name="path" value="$PROJECT_DIR$/src/clojure_study/for_the_brave/chapter_3/body_parts.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/clojure_study/for_the_brave/chapter_3" />
+      <method v="2" />
+    </configuration>
+    <configuration name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clojure-study" />
+      <setting name="path" value="$PROJECT_DIR$/src/clojure_environment/core.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/clojure_environment" />
+      <method v="2" />
+    </configuration>
+    <configuration name="for_the_brave" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="clojure-study" />
+      <setting name="path" value="$PROJECT_DIR$/src/clojure_environment/for_the_brave.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/clojure_environment" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Clojure Application.core" />
+      <item itemvalue="Clojure Application.for_the_brave" />
+      <item itemvalue="Clojure Application.armstrong_numbers" />
+      <item itemvalue="Clojure Application.body_parts" />
+      <item itemvalue="Clojure REPL.REPL for clojure-environment" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure Application.body_parts" />
+        <item itemvalue="Clojure Application.armstrong_numbers" />
+        <item itemvalue="Clojure Application.for_the_brave" />
+        <item itemvalue="Clojure Application.core" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../Projects/scala-start" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/recfun" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0c58987-7821-4e8f-a346-3c0cfe4747f4" name="Default Changelist" comment="" />
+      <created>1571455473191</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571455473191</updated>
+    </task>
+    <servers />
+  </component>
+</project>
